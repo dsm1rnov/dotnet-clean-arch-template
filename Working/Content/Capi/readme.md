@@ -1,1 +1,0 @@
-# Capi Project - Clean Architecture
