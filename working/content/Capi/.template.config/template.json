@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Dmitry Smirnov",
+    "classifications": [
+        "Web",
+        "Clean Architecture Project",
+        "API",
+        "Microservice"
+    ],
+    "identity": "dsmirnov.cleanarch.template",
+    "name": "Clean Architecture Project by Dmitry Smirnov",
+    "description": "Microservice with Clean Architecture",
+    "shortName": "Capi",
+    "sourceName": "Capi",
+    "preferNameDirectory": true,
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    }
+}
