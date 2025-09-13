@@ -34,7 +34,7 @@ dotnet nuget add source https://nuget.pkg.github.com/<GITHUB_USERNAME>/index.jso
 ### 2. Установить шаблон
 
 ```bash
-dotnet new install dsm1rnov.cleanarch.template
+dotnet new install dsmirnov.cleanarch.template --nuget-source github-dsm1rnov
 ```
 
 ### 3. Использовать шаблон
@@ -57,15 +57,15 @@ dotnet run --project MyMicroservice.API
   ```
 - Обновить шаблон:
   ```bash
-  dotnet new install iksergey.cleanarchitecture.template --force
+  dotnet new install dsmirnov.cleanarch.template --nuget-source github-dsm1rnov --force
   ```
 - Удалить шаблон:
   ```bash
-  dotnet new uninstall iksergey.cleanarchitecture.template
+  dotnet new uninstall dsmirnov.cleanarch.template
   ```
 - Удалить источник:
   ```bash
-  dotnet nuget remove source github-iksergey
+  dotnet nuget remove source github-dsm1rnov
   ```
 
 ## 📚 Дополнительные команды
@@ -101,7 +101,7 @@ dotnet nuget list source
 
 ```bash
 # Клонировать репозиторий
-git clone https://github.com/iksergey/dotnet-clean-architecture-template.git
+git clone https://github.com/dsm1rnov/dotnet-clean-arch-template.git
 cd dotnet-clean-architecture-template
 
 # Установить локально для тестирования
